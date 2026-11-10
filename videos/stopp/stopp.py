@@ -1,4 +1,4 @@
-"""KETTENREAKTION #02 – Was wäre, wenn die Erde aufhört, sich zu drehen?"""
+"""FOLGENSCHWER #02 – Was wäre, wenn die Erde aufhört, sich zu drehen?"""
 import math, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 import numpy as np

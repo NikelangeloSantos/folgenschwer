@@ -1,4 +1,4 @@
-"""KETTENREAKTION #03 – Was wäre, wenn alle Insekten verschwinden?"""
+"""FOLGENSCHWER #03 – Was wäre, wenn alle Insekten verschwinden?"""
 import math, os, sys
 from functools import lru_cache
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))

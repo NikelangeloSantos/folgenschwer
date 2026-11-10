@@ -1,4 +1,4 @@
-# KETTENREAKTION – Übergabe für neue Sessions
+# FOLGENSCHWER – Übergabe für neue Sessions
 
 > **Fester Nutzerwunsch (wie bei ZahlenBlitz):** Nach jedem fertigen Video **ohne Nachfrage** eine Download-Seite veröffentlichen
 > (Artifact mit den MP4s als `files`, `capabilities: {"downloads": true}`, icon "video") und den Link nennen.
@@ -19,7 +19,7 @@ Download-Seite: https://claude.ai/artifact/DRZ7x4oYYwuk4JdKZvTs3W (Quelle `downl
 2. SEGS und die Szenen umschreiben (Hook, 4 Glieder, Twist, Outro).
 3. Vorschau, 0 Credits: `python3 <thema>.py out/x.mp4 --preview 0 2 6 …` → `out/pv_*.png` ansehen.
 4. Stimme: `KR_VOICE=1 python3 <thema>.py out/x.mp4 --preview 1` (holt nur fehlende Abschnitte, die Proxy-Injektion liefert den Key).
-5. Rendern: `python3 <thema>.py out/kettenreaktion_NN_<thema>.mp4` (~3 min).
+5. Rendern: `python3 <thema>.py out/folgenschwer_NN_<thema>.mp4` (~3 min).
 6. Web-/Upload-Version < 15 MB: 2-Pass x264 mit `-preset slow -b:v 2650k` (bei 41 s → 14,6 MB).
 
 ## ElevenLabs

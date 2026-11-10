@@ -1,4 +1,4 @@
-"""KETTENREAKTION #06 – Was wäre, wenn du in ein Schwarzes Loch fällst?"""
+"""FOLGENSCHWER #06 – Was wäre, wenn du in ein Schwarzes Loch fällst?"""
 import math, os, sys
 from functools import lru_cache
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))

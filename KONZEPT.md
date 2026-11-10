@@ -1,4 +1,4 @@
-# KETTENREAKTION – Was wäre, wenn …?
+# FOLGENSCHWER – Was wäre, wenn …?
 
 **Idee:** Ein Ereignis passiert, und jedes Video zeigt die Folgen als Zeitleiste mit dem Zähler „T+ 1 Sekunde → T+ 6 Stunden → … → T+ Millionen Jahre“.
 Jeder Schritt ist ein Kettenglied, das orange aufleuchtet. Am Ende kommt ein Twist mit Bezug zur echten Welt und dann die Kommentarfrage.

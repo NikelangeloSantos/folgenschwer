@@ -5,7 +5,7 @@
 
 **Beschreibung:**
 Die Sonne geht aus. 8 Minuten lang merken wir nichts. Und dann? Eine Woche, ein Jahr, Millionen Jahre.
-⛓ KETTENREAKTION: Was wäre, wenn …?
+⛓ FOLGENSCHWER: Was wäre, wenn …?
 Was soll als Nächstes ausgehen? Schreib's in die Kommentare 👇
 
 Quellen: NASA · Stevenson 1999 (Nature) · Temperaturen sind Modell-Schätzungen

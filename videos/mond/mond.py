@@ -1,4 +1,4 @@
-"""KETTENREAKTION #1 – Was wäre, wenn der Mond verschwindet?
+"""FOLGENSCHWER #1 – Was wäre, wenn der Mond verschwindet?
 
 Vorschau (0 Credits):  python3 mond.py out/mond.mp4 --preview 0 2 6 12 ...
 Stumm rendern:         python3 mond.py out/mond.mp4
@@ -323,7 +323,7 @@ def ov_outro(img, rel, ln, i):
     for k, x in enumerate((cx - 70, cx, cx + 70)):
         if k % 2 == 0: d.rounded_rectangle([x - 46, y - 24, x + 46, y + 24], 24, outline=ORANGE + (int(255 * a),), width=10)
         else: d.rounded_rectangle([x - 16, y - 40, x + 16, y + 40], 16, outline=(255, 255, 255, int(255 * a)), width=10)
-    text_fx(img, (500, 580), "KETTENREAKTION", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
+    text_fx(img, (500, 580), "FOLGENSCHWER", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
     text_fx(img, (500, 760), "Was soll als Nächstes", F("Black", 64), fill=WHITE, alpha=clamp((rel - 0.3) / 0.3))
     text_fx(img, (500, 845), "verschwinden?", F("Black", 80), fill=ORANGE, glow=ORANGE, glow_r=18, alpha=clamp((rel - 0.5) / 0.3))
     if rel > 0.8:

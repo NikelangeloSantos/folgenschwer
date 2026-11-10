@@ -1,4 +1,4 @@
-"""Gemeinsame Bausteine für KETTENREAKTION-Videos (Texturen, Hintergründe, Überschriften)."""
+"""Gemeinsame Bausteine für FOLGENSCHWER-Videos (Texturen, Hintergründe, Überschriften)."""
 import math
 from functools import lru_cache
 import numpy as np
@@ -105,7 +105,7 @@ def outro(img, rel, q1, q2, emoji="💬"):
     for k, x in enumerate((cx - 70, cx, cx + 70)):
         if k % 2 == 0: d.rounded_rectangle([x - 46, y - 24, x + 46, y + 24], 24, outline=ORANGE + (int(255 * a),), width=10)
         else: d.rounded_rectangle([x - 16, y - 40, x + 16, y + 40], 16, outline=(255, 255, 255, int(255 * a)), width=10)
-    text_fx(img, (500, 580), "KETTENREAKTION", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
+    text_fx(img, (500, 580), "FOLGENSCHWER", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
     text_fx(img, (500, 760), q1, fit_font(q1, 64, 900), fill=WHITE, alpha=clamp((rel - 0.3) / 0.3))
     text_fx(img, (500, 845), q2, fit_font(q2, 80, 900), fill=ORANGE, glow=ORANGE, glow_r=18, alpha=clamp((rel - 0.5) / 0.3))
     if rel > 0.8:

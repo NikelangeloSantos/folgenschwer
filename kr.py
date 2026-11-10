@@ -1,4 +1,4 @@
-"""KETTENREAKTION – gemeinsame Engine für alle „Was wäre, wenn …?“-Videos.
+"""FOLGENSCHWER – gemeinsame Engine für alle „Was wäre, wenn …?“-Videos.
 
 Ein Video ist eine Datei videos/<name>.py, die SEGS, SCENES und ein paar Konstanten definiert und
 am Ende `kr.run(globals())` aufruft. Die Engine übernimmt: Stimme (ElevenLabs + Cache), Timing,

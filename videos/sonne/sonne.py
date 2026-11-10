@@ -1,4 +1,4 @@
-"""KETTENREAKTION #04 – Was wäre, wenn die Sonne ausgeht?"""
+"""FOLGENSCHWER #04 – Was wäre, wenn die Sonne ausgeht?"""
 import math, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 import numpy as np

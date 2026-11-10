@@ -1,4 +1,4 @@
-"""KETTENREAKTION #05 – Was wäre, wenn alles Eis der Erde schmilzt?"""
+"""FOLGENSCHWER #05 – Was wäre, wenn alles Eis der Erde schmilzt?"""
 import math, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
 import numpy as np

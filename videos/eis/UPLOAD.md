@@ -5,7 +5,7 @@
 
 **Beschreibung:**
 +1 m, +10 m, +20 m, +70 m: Was steht unter Wasser, wenn alles Eis der Erde schmilzt? Sogar Berlin.
-⛓ KETTENREAKTION: Was wäre, wenn …?
+⛓ FOLGENSCHWER: Was wäre, wenn …?
 Welches Szenario soll als Nächstes kommen? Schreib's in die Kommentare 👇
 
 Quellen: USGS (≈ 70 m bei vollständigem Abschmelzen) · IPCC AR6 2021 (Meeresspiegel bis 2100) · Höhen ≈ Stadtmitte, ohne Deiche
