@@ -3,6 +3,7 @@
 > **Fester Nutzerwunsch (wie bei ZahlenBlitz):** Nach jedem fertigen Video **ohne Nachfrage** eine Download-Seite veröffentlichen
 > (Artifact mit den MP4s als `files`, `capabilities: {"downloads": true}`, icon "video") und den Link nennen.
 
+GitHub: https://github.com/NikelangeloSantos/folgenschwer (lokal oft noch unter /home/user/kettenreaktion geklont).
 Download-Seite: https://claude.ai/artifact/DRZ7x4oYYwuk4JdKZvTs3W (Quelle `downloads.html`, neue Folge oben einfügen, MP4 über `files`).
 
 ## Aufbau
