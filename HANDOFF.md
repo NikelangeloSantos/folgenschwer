@@ -23,7 +23,7 @@ Download-Seite: https://claude.ai/artifact/DRZ7x4oYYwuk4JdKZvTs3W (Quelle `downl
 6. Web-/Upload-Version < 15 MB: 2-Pass x264 mit `-preset slow -b:v 2650k` (bei 41 s → 14,6 MB).
 
 ## ElevenLabs
-voice_id `TUKJhQmz3RPYBNAgC5A1` (dieselbe wie bei ZahlenBlitz), eleven_multilingual_v2, Settings wie in `kr.py`. Ohne `KR_VOICE=1` wird nie vertont.
+voice_id **`ML23UVoFL5mI6APbRAeR`** ab Video #02 (Nutzerwunsch). #01 Mond nutzt weiter `TUKJhQmz3RPYBNAgC5A1` (Override `VOICE_ID` in mond.py), damit sein Cache gültig bleibt, eleven_multilingual_v2, Settings wie in `kr.py`. Ohne `KR_VOICE=1` wird nie vertont.
 
 ## Videos
 | # | Ordner | Thema | Länge |

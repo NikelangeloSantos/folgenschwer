@@ -34,7 +34,7 @@ ImageDraw.ImageDraw.text = _alpha_text
 
 W, H, FPS, SR = 1080, 1920, 30, 48000
 ROOT = os.path.dirname(os.path.abspath(__file__))
-VOICE_ID = "TUKJhQmz3RPYBNAgC5A1"
+VOICE_ID = "ML23UVoFL5mI6APbRAeR"   # Kanalstimme ab Video #02 (pro Video überschreibbar: VOICE_ID im Video-Skript)
 MODEL_ID = "eleven_multilingual_v2"
 VOICE_SETTINGS = {"stability": 0.45, "similarity_boost": 0.8, "style": 0.35, "use_speaker_boost": True}
 
@@ -207,14 +207,15 @@ class Video:
     pass
 V = Video()
 
-def _hash(text): return hashlib.sha1(f"{VOICE_ID}|{MODEL_ID}|{json.dumps(VOICE_SETTINGS, sort_keys=True)}|{text}".encode()).hexdigest()[:16]
+def _vid(): return getattr(V, "VOICE_ID", VOICE_ID)
+def _hash(text): return hashlib.sha1(f"{_vid()}|{MODEL_ID}|{json.dumps(VOICE_SETTINGS, sort_keys=True)}|{text}".encode()).hexdigest()[:16]
 def fetch_voice(text):
     cache = os.path.join(V.dir, "voice_cache"); os.makedirs(cache, exist_ok=True)
     path = os.path.join(cache, _hash(text) + ".json")
     if os.path.exists(path): return json.load(open(path))
     if os.environ.get("KR_VOICE") != "1": return None
     import requests
-    r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}/with-timestamps",
+    r = requests.post(f"https://api.elevenlabs.io/v1/text-to-speech/{_vid()}/with-timestamps",
                       params={"output_format": "mp3_44100_128"},
                       headers={"xi-api-key": os.environ.get("ELEVENLABS_API_KEY", "proxy-injected"), "Content-Type": "application/json"},
                       json={"text": text, "model_id": MODEL_ID, "voice_settings": VOICE_SETTINGS}, timeout=120)

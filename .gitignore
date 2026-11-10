@@ -3,3 +3,4 @@ out/
 *.wav
 *.mkv
 __pycache__/
+*.mp3

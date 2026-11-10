@@ -12,6 +12,7 @@ import kr
 from kr import W, H, F, text_fx, eo, eio, bo, ss, clamp, mix, WHITE, ORANGE, AMBER, CYAN, RED, INK
 
 MAX_LEN = 44.0
+VOICE_ID = "TUKJhQmz3RPYBNAgC5A1"   # #01 wurde noch mit der ZahlenBlitz-Stimme vertont
 # Akkorde (Hz): düster-filmisch in d-Moll
 CHORDS = [(146.8, 174.6, 220.0), (116.5, 174.6, 233.1), (130.8, 196.0, 261.6), (110.0, 164.8, 220.0)]
 SOURCES = "Quellen: NASA · Laskar et al. 1993 (Nature) · Harrison et al. 1984 (Science)"
