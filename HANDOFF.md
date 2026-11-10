@@ -29,3 +29,12 @@ voice_id **`ML23UVoFL5mI6APbRAeR`** ab Video #02 (Nutzerwunsch). #01 Mond nutzt 
 | # | Ordner | Thema | Länge |
 |---|---|---|---|
 | 01 | videos/mond | Was wäre, wenn der Mond verschwindet? | 41 s |
+| 02 | videos/stopp | Was wäre, wenn die Erde aufhört, sich zu drehen? | 38 s |
+| 03 | videos/insekten | Was wäre, wenn alle Insekten verschwinden? | 44 s |
+| 04 | videos/sonne | Was wäre, wenn die Sonne ausgeht? | 38 s |
+| 05 | videos/eis | Was wäre, wenn alles Eis der Erde schmilzt? (Pille zeigt +Meter statt T+) | 37 s |
+| 06 | videos/loch | Was wäre, wenn du in ein Schwarzes Loch fällst? (Gravitationslinse in loch.py) | 35 s |
+
+Gemeinsame Bausteine stehen in `lib.py` (Erde/Mond/Sonne, Sterne, `heads()`, `hook_text()`, `outro()`, Emoji, Kreuz).
+Fertigstellen: `tools/finish.sh <ordner> <nr> <Titel>` (Stimme holen, rendern, Web-Version < 15 MB, Lautheit auf −14 korrigieren).
+Download-Seite: mehr als 64 MB pro Publish geht nicht, also MP4s auf mehrere Publishes an dieselbe URL verteilen.

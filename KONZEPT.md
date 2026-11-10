@@ -17,23 +17,23 @@ Jeder Schritt ist ein Kettenglied, das orange aufleuchtet. Am Ende kommt ein Twi
 - **KI-Kennzeichnung:** Die Stimme ist synthetisch. Bei YouTube (veränderte/synthetische Inhalte) und TikTok (KI-generiert) ehrlich angeben.
 
 ## Themenliste (je Thema ein Short, die fett markierten auch als lange Videos)
-1. ✅ Der Mond verschwindet
-2. **Die Erde hört auf, sich zu drehen**
-3. Die Sonne geht aus
-4. **Alle Insekten verschwinden**
+1. ✅ Der Mond verschwindet (#01)
+2. ✅ **Die Erde hört auf, sich zu drehen** (#02)
+3. ✅ Die Sonne geht aus (#04)
+4. ✅ **Alle Insekten verschwinden** (#03)
 5. Das Internet fällt weltweit aus
 6. **14 Tage kein Strom in Deutschland** (TAB-Bericht des Bundestags als Quelle)
 7. Du hörst auf zu schlafen
 8. Du trinkst kein Wasser mehr
 9. **Alle Menschen verschwinden** (Städte zerfallen, Stunde 1 → Jahr 10.000)
 10. Der Sauerstoff ist 5 Sekunden lang weg
-11. Alles Eis schmilzt (Meeresspiegel +70 m, Hamburg …)
+11. ✅ Alles Eis schmilzt (#05) (Meeresspiegel +70 m, Hamburg …)
 12. Der Golfstrom stoppt
 13. Yellowstone bricht aus
 14. Das Magnetfeld der Erde verschwindet
 15. Die Ozonschicht ist weg
 16. Antibiotika wirken nicht mehr
-17. Du fällst in ein Schwarzes Loch
+17. ✅ Du fällst in ein Schwarzes Loch (#06)
 18. Die Erde hätte Ringe wie Saturn
 19. Der Asteroid der Dinos hätte die Erde verfehlt
 20. Alles Plastik verschwindet sofort
