@@ -1,0 +1,84 @@
+<title>Kettenreaktion Downloads</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;600;800&display=swap">
+<style>
+/* Layout: eine Spalte, Video links / Upload-Texte rechts ab Tablet; Look der Videos (Weltall-Navy, Reaktions-Orange) */
+:root{
+  --bg:#070914; --panel:#0f1324; --line:#232a45; --fg:#eef0f8; --muted:#9aa2c0;
+  --accent:#ff7026; --signal:#50e4ff;
+  --display:"Space Grotesk",Inter,system-ui,sans-serif; --body:Inter,system-ui,sans-serif;
+  color-scheme:dark;
+}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1000px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.chain{display:flex;gap:0;align-items:center}
+.chain i{display:block;width:26px;height:14px;border:3px solid var(--accent);border-radius:9px}
+.chain b{display:block;width:10px;height:3px;background:var(--fg)}
+h1{font-family:var(--display);font-weight:700;letter-spacing:.06em;font-size:clamp(24px,5vw,34px);margin:0}
+.sub{color:var(--muted);margin:6px 0 26px}
+.ep{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:28px;border-top:1px solid var(--line);padding-top:24px}
+@media (max-width:720px){.ep{grid-template-columns:minmax(0,1fr)}}
+video{width:100%;max-width:340px;aspect-ratio:9/16;background:#000;border-radius:14px;display:block}
+.stamp{display:inline-block;font-family:var(--display);font-weight:700;border:2px solid var(--accent);border-radius:999px;padding:2px 12px;font-size:13px;letter-spacing:.05em}
+.stamp em{color:var(--accent);font-style:normal}
+h2{font-family:var(--display);font-size:22px;margin:10px 0 4px;text-wrap:balance}
+.meta{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;margin-bottom:16px}
+button{font:600 14px var(--body);color:var(--bg);background:var(--accent);border:0;border-radius:10px;padding:11px 16px;cursor:pointer}
+button.ghost{background:transparent;color:var(--fg);border:1px solid var(--line);padding:6px 10px;font-size:12px}
+button:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+.field{margin-top:18px;min-width:0}
+.field label{display:flex;justify-content:space-between;align-items:center;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--signal);margin-bottom:6px}
+.field pre{white-space:pre-wrap;word-break:break-word;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:12px;margin:0;font:14px/1.5 var(--body)}
+.msg{font-size:13px;color:var(--muted);margin-top:8px;min-height:1em}
+</style>
+
+<div class="wrap">
+  <header><div class="chain" aria-hidden="true"><i></i><b></b><i></i><b></b><i></i></div><h1>KETTENREAKTION</h1></header>
+  <p class="sub">Was wäre, wenn …? Eine Zeitleiste pro Video. Neue Folgen erscheinen hier oben.</p>
+
+  <section class="ep">
+    <div><video src="KETTENREAKTION_01_Mond.mp4" controls playsinline preload="metadata"></video></div>
+    <div style="min-width:0">
+      <span class="stamp"><em>#</em>01</span>
+      <h2>Was wäre, wenn der Mond verschwindet?</h2>
+      <div class="meta">41 s · 1080 × 1920 · −14 LUFS · 14,6 MB</div>
+      <button id="dl" data-file="KETTENREAKTION_01_Mond.mp4">MP4 herunterladen</button>
+      <div class="msg" id="dlmsg"></div>
+
+      <div class="field"><label>Titel YouTube <button class="ghost" data-copy="t1">Kopieren</button></label><pre id="t1">Was passiert, wenn der Mond verschwindet? 🌑 #shorts</pre></div>
+      <div class="field"><label>Titel TikTok <button class="ghost" data-copy="t2">Kopieren</button></label><pre id="t2">Was wäre, wenn der Mond plötzlich weg ist? 🌑</pre></div>
+      <div class="field"><label>Beschreibung <button class="ghost" data-copy="t3">Kopieren</button></label><pre id="t3">Der Mond ist weg. Einfach so. Was passiert danach, Sekunde für Sekunde, bis Millionen Jahre später?
+⛓ KETTENREAKTION: jeden Tag ein neues „Was wäre, wenn …?“
+Was soll als Nächstes verschwinden? Schreib's in die Kommentare 👇
+
+Quellen: NASA (Lunar Laser Ranging, 3,8 cm/Jahr) · Laskar, Joutel &amp; Robutel 1993, Nature 361 · Harrison et al. 1984, Science 223
+
+#waswärewenn #mond #weltall #wissen #fakten #space #shorts</pre></div>
+    </div>
+  </section>
+</div>
+
+<script>
+(async () => {
+  const btn = document.getElementById('dl'), msg = document.getElementById('dlmsg');
+  let downloads = null;
+  try { downloads = await claude.use('downloads'); } catch (e) {}
+  if (!downloads) { msg.textContent = 'Download hier nicht verfügbar. Rechtsklick auf das Video → „Video speichern“.'; }
+  btn.addEventListener('click', async () => {
+    if (!downloads) return;
+    msg.textContent = 'Lade Datei …';
+    try {
+      const blob = await (await fetch(btn.dataset.file)).blob();
+      await downloads.save({ filename: btn.dataset.file, data: blob });
+      msg.textContent = 'Gespeichert.';
+    } catch (e) { msg.textContent = 'Nicht gespeichert (' + (e && e.code || 'abgebrochen') + ').'; }
+  });
+  document.querySelectorAll('[data-copy]').forEach(b => b.addEventListener('click', async () => {
+    const el = document.getElementById(b.dataset.copy);
+    try { await navigator.clipboard.writeText(el.textContent); b.textContent = 'Kopiert'; }
+    catch (e) { const r = document.createRange(); r.selectNodeContents(el); const s = getSelection(); s.removeAllRanges(); s.addRange(r); b.textContent = 'Markiert'; }
+    setTimeout(() => b.textContent = 'Kopieren', 1500);
+  }));
+})();
+</script>

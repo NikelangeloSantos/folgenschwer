@@ -3,6 +3,8 @@
 > **Fester Nutzerwunsch (wie bei ZahlenBlitz):** Nach jedem fertigen Video **ohne Nachfrage** eine Download-Seite veröffentlichen
 > (Artifact mit den MP4s als `files`, `capabilities: {"downloads": true}`, icon "video") und den Link nennen.
 
+Download-Seite: https://claude.ai/artifact/DRZ7x4oYYwuk4JdKZvTs3W (Quelle `downloads.html`, neue Folge oben einfügen, MP4 über `files`).
+
 ## Aufbau
 - `kr.py`: Engine. Stimme (ElevenLabs + Cache), Timing, T+-Pille und Kette, Karaoke-Untertitel, Übergänge, Bloom/Grain/Vignette/Tonemapping,
   Hilfsfunktionen (`sphere()` für beleuchtete Planeten mit Wolken/Stadtlichtern/Atmosphäre, `fnoise`, `starfield`, `splat` für Partikel, `text_fx` mit Glow),
