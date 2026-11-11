@@ -11,3 +11,6 @@ Welches Szenario soll als Nächstes kommen? Schreib's in die Kommentare 👇
 Quellen: Dawson & Reid 1997 (Nature) · Guinness World Records (Randy Gardner, 1964)
 
 #waswärewenn #schlaf #körper #gesundheit #wissen #fakten #shorts
+
+**YouTube-Tags:**
+was wäre wenn, nie wieder schlafen, schlafentzug, ohne schlaf, was passiert wenn man nicht schläft, wie lange kann man ohne schlaf leben, schlafentzug folgen, randy gardner, weltrekord wach bleiben, 24 stunden wach, halluzinationen, schlaf, körper, gesundheit, wissen, fakten, gedankenexperiment, folgenschwer, shorts deutsch, wissenschaft
