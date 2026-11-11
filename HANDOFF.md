@@ -47,3 +47,10 @@ Download-Seite: mehr als 64 MB pro Publish geht nicht, also MP4s auf mehrere Pub
 
 Mehrere Videos am Stück: `tools/batch.sh "ordner NN Titel" "ordner NN Titel" …`
 Themenmix (Nutzerwunsch): auch banale/unrealistische Alltagsfragen („hat sich jeder schon mal gefragt“), nicht nur Natur/Weltall.
+| 12 | videos/gesetze | Was wäre, wenn es ab morgen keine Gesetze mehr gäbe? (MUSTER neuer Hook) | 42,5 s |
+
+## Hook-Regeln ab #12 (aus YouTube-Auswertung #10: 58,5 % Sehdauer gut, aber ~75 % wischen sofort weg)
+- Stimme beginnt mit der krassesten Folge/Zahl, Frage erst danach; Hook ≤ ~3,5 s.
+- Frame 0 schon in Bewegung (Push-in, Licht-Wechsel, Shake), kein ruhiges Standbild.
+- Im Hook nur 2–3 riesige Wörter, kein „WAS WÄRE, WENN“-Kicker.
+- Outro-Frage themenbezogen („Welches Gesetz würdest du …?“) + passenden Kommentar anpinnen.
