@@ -1,24 +1,25 @@
-# FOLGENSCHWER – Prompts für Google Flow (Logo + Banner)
+# FOLGENSCHWER – Prompts für Google Flow (Logo + Banner), Version 2: allgemein & Eyecatcher
 
-Markenfarben: Weltall-Navy #070914 · Reaktions-Orange #FF7026 · Signal-Cyan #50E4FF · Weiß #F6F7FC
-Motiv: drei Kettenglieder (orange – weiß – orange), Glow, Weltall, Erde/Schwarzes Loch.
+Idee: Es geht um Folgen jeder Art (Technik, Geld, Körper, Gesellschaft, Geschichte, Weltall), nicht nur um Natur.
+Symbole: Fragezeichen (Was wäre, wenn …?), Kette/Domino (eins führt zum anderen), Bruch/Funken (der Moment, in dem es kippt).
+Farben: Tiefschwarz-Navy #070914 · Neon-Orange #FF7026 · Cyan #50E4FF · Weiß.
 
-## Logo A – Kettenglied-Symbol (empfohlen)
-Minimalist app-icon style logo, three interlocking chain links in a horizontal row, the outer two links glowing vivid orange (#FF7026), the middle link bright white, the middle link snapping open with a small burst of orange sparks and light particles, centered on a deep navy space background (#070914) with a faint starfield and a soft purple nebula glow, cinematic neon glow, clean bold vector shapes, high contrast, perfectly centered, generous padding so it works inside a circle crop, no text, no letters, 1:1 square
+## Logo 1 – Ketten-Fragezeichen (Empfehlung)
+Bold eye-catching logo icon: a giant question mark built from interlocking glowing chain links, the links glowing neon orange (#FF7026) with white-hot highlights, the dot of the question mark is a single chain link breaking apart in an explosion of orange sparks and light shards, pure deep black-navy background (#070914), strong neon glow and bloom, sharp clean vector shapes, extreme contrast, iconic and readable at tiny sizes, perfectly centered with padding for a circle crop, no text, 1:1 square
 
-## Logo B – Erde in der Kette
-Circular emblem logo, planet Earth seen from space with a glowing blue atmosphere, wrapped by a single bold orange glowing chain (#FF7026) whose one link is breaking apart into sparks, deep navy space background (#070914) with subtle stars, dramatic rim light from the left, cinematic sci-fi style, bold simple shapes readable at small size, centered with padding for a circle crop, no text, 1:1 square
+## Logo 2 – Domino-Fragezeichen
+Striking minimalist logo: a row of glossy black dominoes with glowing orange (#FF7026) edges falling in a curve that forms the shape of a question mark, the last domino exploding into bright orange and cyan (#50E4FF) particles, deep black-navy background (#070914), dramatic rim lighting, cinematic neon glow, high contrast, simple bold silhouette readable as a small app icon, centered with padding for a circle crop, no text, 1:1 square
 
-## Logo C – Schwarzes Loch + Kette
-Bold minimalist logo, a black hole with a thin glowing orange-white accretion ring, three chain links being pulled into it and stretching, deep navy space background (#070914), neon orange (#FF7026) and cyan (#50E4FF) glow accents, clean vector look, high contrast, centered, padding for circle crop, no text, 1:1 square
+## Logo 3 – Riss-Monogramm „F“
+Bold monogram logo, a thick geometric capital letter F made of polished dark metal, split diagonally by a glowing orange (#FF7026) crack, bright sparks and tiny shards bursting out of the crack, subtle cyan (#50E4FF) rim light, deep black-navy background (#070914), cinematic neon glow, ultra clean and premium, high contrast, centered with padding for a circle crop, 1:1 square
 
-## Banner (YouTube, 16:9)
-Ultra-wide cinematic space banner, 16:9, deep navy background (#070914) with a soft purple nebula and fine starfield, on the far left a glowing blue planet Earth partly in shadow with tiny orange city lights, on the far right a black hole with a glowing orange accretion disk bending the starlight, between them a thin glowing orange timeline line with five small glowing nodes connected like chain links, the whole center area calm and empty dark space reserved for a title, cinematic lighting, high detail, sharp, no text, no letters, no logos
+## Banner 1 – Kettenreaktion durch alle Themen (Empfehlung)
+Ultra-wide cinematic banner, 16:9, deep black-navy background (#070914), a long chain reaction of falling dominoes running across the full width, each domino carrying a small glowing icon from a different world: a smartphone, a coin stack, a human brain, a lightning bolt, a city skyline, a planet, a virus, an hourglass, the dominoes glow neon orange (#FF7026) along their edges, sparks fly where they hit each other, the chain ends on the right in a huge glowing orange question mark made of light, motion and energy, cinematic bloom, film grain, the central horizontal band kept darker and calm for a title, no text, no letters
 
-## Banner-Variante (mit Zeitleiste stärker)
-Wide cinematic sci-fi banner, 16:9, dark navy space (#070914), a horizontal chain of glowing links stretching across the frame like a timeline, links glowing orange (#FF7026) on the left and fading to cyan (#50E4FF) on the right, small icons of a moon, a tsunami wave, a frozen Earth and a black hole floating above the chain at even intervals, soft bloom, film grain, empty dark center band for text, no text, no letters
+## Banner 2 – Zerbrechende Kette mit Schockwelle
+Wide cinematic banner, 16:9, pitch dark navy background (#070914), one massive glowing chain stretching horizontally across the frame, in the exact center one link snaps apart in a brilliant orange (#FF7026) explosion with a ring-shaped shockwave and flying sparks, the shockwave reveals faint holographic silhouettes of a city, a stock chart, a DNA helix, a satellite and a clock, cyan (#50E4FF) accent light, dramatic high-contrast lighting, epic movie poster mood, no text, no letters
 
 ## Tipps
-- KI-Bildgeneratoren schreiben Text oft falsch. Deshalb steht bei allen Prompts „no text“. Den Schriftzug FOLGENSCHWER setze ich danach exakt drauf.
-- Für jeden Prompt 4 Varianten generieren und die beste nehmen.
-- Banner möglichst groß exportieren. Ich bringe es danach auf 2560 × 1440 und lege Schrift und Logo in die Safe Area (1546 × 423), damit auf dem Handy nichts abgeschnitten wird.
+- Immer „no text“: Den Schriftzug FOLGENSCHWER setze ich danach exakt in der Video-Schrift (Inter Black) drauf.
+- Pro Prompt 4 Varianten erzeugen, die beste 1–2 schicken.
+- Logo: Bei kleinen Größen zählt die Silhouette. Teste das Bild verkleinert auf Daumennagel-Größe.
