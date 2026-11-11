@@ -19,3 +19,17 @@ Bright dynamic 16:9 banner, vibrant electric blue (#2F6BFF) to violet (#7B3BFF) 
 ## Tipps
 - Immer „no text“. Den Schriftzug FOLGENSCHWER setze ich danach drauf (weiß mit orangem Glow, passt auf Blau-Violett).
 - Pro Prompt 4 Varianten erzeugen und die besten 1–2 schicken.
+
+---
+# Version 5: Logo passend zu den Videos (für Abspann + Profilbild)
+Ziel: wirkt wie ein Teil der Videos. Gleiche Welt: dunkles Weltall-Navy #070914, Neon-Orange #FF7026, Cyan #50E4FF, weicher Glow, flach und klar statt fotorealistisch.
+Einfarbig dunkler Hintergrund, damit das Logo im Abspann nahtlos verschmilzt.
+
+## Logo A – Neon-Kettenglied-F (Empfehlung)
+Minimal flat neon logo icon, a bold capital letter F formed by three glowing interlocking chain links, the vertical stem is one long rounded chain link, the two horizontal bars are shorter rounded links, the top link glowing neon orange (#FF7026), the others glowing cyan (#50E4FF), the middle link is slightly cracked open with a tiny burst of orange sparks, clean vector line style with soft neon bloom, solid plain deep navy background (#070914) with nothing else, perfectly centered, generous padding, high contrast, readable at tiny sizes, no texture, no smoke, no text, 1:1 square
+
+## Logo B – Neon-Fragezeichen aus Kette
+Minimal flat neon logo icon, a bold question mark drawn as one continuous glowing chain of rounded links, the links glowing neon orange (#FF7026), the dot of the question mark is a single cyan (#50E4FF) link breaking apart into a few small sparks, clean vector line style with soft neon bloom, solid plain deep navy background (#070914) with nothing else, perfectly centered, generous padding, high contrast, readable at tiny sizes, no texture, no smoke, no text, 1:1 square
+
+## Logo C – Zeit-Pille-Emblem (wie die Anzeige in den Videos)
+Minimal flat neon emblem logo, a rounded capsule shaped badge with a glowing neon orange (#FF7026) outline, inside it a bold white capital letter F, below the badge a short horizontal row of five small glowing dots connected by tiny chain links, the first three dots orange, the last two dim, clean vector style with soft neon bloom, solid plain deep navy background (#070914), centered, generous padding, readable at tiny sizes, no texture, no text except the letter F, 1:1 square
