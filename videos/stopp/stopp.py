@@ -11,10 +11,10 @@ CHORDS = [(110.0, 164.8, 220.0), (98.0, 146.8, 196.0), (116.5, 174.6, 233.1), (1
 SOURCES = "Quellen: NASA · Esri/W. Fraczek (Simulation) · Stephenson et al. 2016 (Proc. R. Soc. A)"
 
 SEGS = [
-    dict(scene="hook", say="Die Erde hört auf, sich zu drehen. Sofort. Was passiert?", min=3.6, stamp="0 SEK.", nosub=True, shake=0.4),
+    dict(scene="hook", say="Die Erde hört auf, sich zu drehen. Sofort. Was passiert?", min=3.6, stamp="JETZT", nosub=True, shake=0.4),
     dict(scene="wind", say="Sekunde eins: Alles fliegt weiter – am Äquator mit über sechzehnhundert Kilometern pro Stunde.", min=4.6, stamp="1 SEKUNDE", node=True, shake=1.0),
     dict(scene="tsunami", say="Nach einer Stunde: Die Ozeane schwappen weiter. Riesige Tsunamis rollen über die Küsten.", min=4.8, stamp="1 STUNDE", node=True),
-    dict(scene="tag", say="Nach sechs Monaten: Immer noch Tag. Ein Tag dauert jetzt ein ganzes Jahr.", min=4.6, stamp="6 MONATE", node=True),
+    dict(scene="tag", say="Nach sechs Monaten: Immer noch Tag. Ein Tag dauert jetzt ein ganzes Jahr.", min=4.6, stamp="6 MONATEN", node=True),
     dict(scene="ozean", say="Am Ende: Die Meere fließen zu den Polen. Am Äquator taucht ein Riesen-Kontinent auf.", min=4.8, stamp="AM ENDE", tplus=False, node=True),
     dict(scene="twist", say="Und das Krasse: Die Erde bremst wirklich. Pro Jahrhundert wird jeder Tag knapp zwei Millisekunden länger.", min=5.2, stamp="HEUTE", node=True, twist=True, shake=0.6),
     dict(scene="outro", say="Was soll als Nächstes stoppen? Schreib's in die Kommentare!", min=3.6, nosub=True, noui=True, nosrc=True),

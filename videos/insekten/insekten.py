@@ -13,10 +13,10 @@ SOURCES = "Quellen: Klein et al. 2007 (Proc. R. Soc. B) · Nyffeler et al. 2018 
 GREEN = (120, 230, 120)
 
 SEGS = [
-    dict(scene="hook", say="Alle Insekten sind weg. Jedes einzelne. Was passiert jetzt?", min=3.6, stamp="0 SEK.", nosub=True),
+    dict(scene="hook", say="Alle Insekten sind weg. Jedes einzelne. Was passiert jetzt?", min=3.6, stamp="JETZT", nosub=True),
     dict(scene="voegel", say="Nach einer Woche: Vögel hungern. Sie fressen sonst bis zu fünfhundert Millionen Tonnen Insekten im Jahr.", min=4.8, stamp="1 WOCHE", node=True),
     dict(scene="mist", say="Nach einem Monat: Mist und tote Tiere verrotten kaum noch. Die Müllabfuhr der Natur fehlt.", min=4.6, stamp="1 MONAT", node=True),
-    dict(scene="bluete", say="Im Frühling: kaum Obst. Drei Viertel unserer wichtigsten Nutzpflanzen brauchen Bestäuber.", min=4.8, stamp="6 MONATE", node=True),
+    dict(scene="bluete", say="Im Frühling: kaum Obst. Drei Viertel unserer wichtigsten Nutzpflanzen brauchen Bestäuber.", min=4.8, stamp="6 MONATEN", node=True),
     dict(scene="schoko", say="Nach einem Jahr: Schokolade wird knapp. Kakao wird fast nur von winzigen Mücken bestäubt.", min=4.8, stamp="1 JAHR", node=True),
     dict(scene="twist", say="Und das Krasse: Es passiert schon. In deutschen Schutzgebieten schrumpfte die Insektenmasse in siebenundzwanzig Jahren um drei Viertel.", min=5.4, stamp="HEUTE", node=True, twist=True, shake=0.6),
     dict(scene="outro", say="Welches Szenario soll als Nächstes kommen? Schreib's in die Kommentare!", min=3.6, nosub=True, noui=True, nosrc=True),

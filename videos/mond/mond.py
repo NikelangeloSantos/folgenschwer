@@ -18,11 +18,11 @@ CHORDS = [(146.8, 174.6, 220.0), (116.5, 174.6, 233.1), (130.8, 196.0, 261.6), (
 SOURCES = "Quellen: NASA · Laskar et al. 1993 (Nature) · Harrison et al. 1984 (Science)"
 
 SEGS = [
-    dict(key="hook", scene="hook", say="Der Mond ist weg. Einfach so. Was passiert jetzt?", min=3.6, stamp="0 SEK.", nosub=True, flash0=0.0, shake=1.0),
+    dict(key="hook", scene="hook", say="Der Mond ist weg. Einfach so. Was passiert jetzt?", min=3.6, stamp="JETZT", nosub=True, flash0=0.0, shake=1.0),
     dict(key="nacht", scene="nacht", say="Sekunde eins: Die Nächte werden bis zu hundertmal dunkler.", min=4.2, stamp="1 SEKUNDE", node=True),
     dict(key="flut", scene="flut", say="Nach sechs Stunden: Die Flut bleibt fast aus. Ebbe und Flut schrumpfen um mehr als die Hälfte.", min=5.0, stamp="6 STUNDEN", node=True),
     dict(key="koralle", scene="koralle", say="Nach einem Monat: Korallen warten vergeblich. Viele laichen nur nach dem Vollmond.", min=4.8, stamp="1 MONAT", node=True),
-    dict(key="achse", scene="achse", say="Nach Millionen Jahren: Die Erdachse gerät ins Taumeln. Jahreszeiten könnten extrem werden.", min=5.0, stamp="MIO. JAHRE", node=True),
+    dict(key="achse", scene="achse", say="Nach Millionen Jahren: Die Erdachse gerät ins Taumeln. Jahreszeiten könnten extrem werden.", min=5.0, stamp="MIO. JAHREN", node=True),
     dict(key="twist", scene="twist", say="Und das Krasse: Der Mond haut wirklich ab. Drei Komma acht Zentimeter. Jedes Jahr.", min=5.2, stamp="HEUTE", node=True, twist=True, shake=0.7),
     dict(key="outro", scene="outro", say="Was soll als Nächstes verschwinden? Schreib's in die Kommentare!", min=3.6, nosub=True, noui=True, nosrc=True),
 ]
@@ -316,18 +316,8 @@ def sc_outro(rel, ln, i):
     return bg
 
 def ov_outro(img, rel, ln, i):
-    a = clamp(rel / 0.3)
-    d = ImageDraw.Draw(img, "RGBA")
-    # Logo: drei Kettenglieder
-    cx, y = 500, 470
-    for k, x in enumerate((cx - 70, cx, cx + 70)):
-        if k % 2 == 0: d.rounded_rectangle([x - 46, y - 24, x + 46, y + 24], 24, outline=ORANGE + (int(255 * a),), width=10)
-        else: d.rounded_rectangle([x - 16, y - 40, x + 16, y + 40], 16, outline=(255, 255, 255, int(255 * a)), width=10)
-    text_fx(img, (500, 580), "FOLGENSCHWER", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
-    text_fx(img, (500, 760), "Was soll als Nächstes", F("Black", 64), fill=WHITE, alpha=clamp((rel - 0.3) / 0.3))
-    text_fx(img, (500, 845), "verschwinden?", F("Black", 80), fill=ORANGE, glow=ORANGE, glow_r=18, alpha=clamp((rel - 0.5) / 0.3))
-    if rel > 0.8:
-        e = kr.emoji("💬", 110); img.paste(e, (int(500 - e.width / 2), 940), e)
+    import lib
+    lib.outro(img, rel, "Was soll als Nächstes", "verschwinden?")
 
 SCENES = dict(hook=sc_hook, nacht=sc_nacht, flut=sc_flut, koralle=sc_koralle, achse=sc_achse, twist=sc_twist, outro=sc_outro)
 OVERLAYS = dict(hook=ov_hook, nacht=ov_nacht, flut=ov_flut, koralle=ov_koralle, achse=ov_achse, twist=ov_twist, outro=ov_outro)

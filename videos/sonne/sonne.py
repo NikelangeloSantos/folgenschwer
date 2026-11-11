@@ -12,11 +12,11 @@ SOURCES = "Quellen: NASA · Stevenson 1999 (Nature) · Temperaturen = Modell-Sch
 ICE = (170, 225, 255)
 
 SEGS = [
-    dict(scene="hook", say="Die Sonne geht aus. Jetzt. Wie lange merken wir nichts?", min=3.6, stamp="0 SEK.", nosub=True, shake=0.8),
+    dict(scene="hook", say="Die Sonne geht aus. Jetzt. Wie lange merken wir nichts?", min=3.6, stamp="JETZT", nosub=True, shake=0.8),
     dict(scene="licht", say="Acht Minuten lang: gar nichts. So lange braucht ihr letztes Licht bis zu uns.", min=4.6, stamp="8 MINUTEN", node=True),
     dict(scene="kalt", say="Nach einer Woche: im Schnitt minus achtzehn Grad. Pflanzen bekommen kein Licht mehr.", min=4.6, stamp="1 WOCHE", node=True),
     dict(scene="eis", say="Nach einem Jahr: minus siebzig Grad. Die Ozeane frieren zu – aber nur oben.", min=4.6, stamp="1 JAHR", node=True),
-    dict(scene="ende", say="Nach Millionen Jahren: Nur die Wärme aus dem Erdinneren bleibt. Minus zweihundertvierzig Grad.", min=4.8, stamp="MIO. JAHRE", node=True),
+    dict(scene="ende", say="Nach Millionen Jahren: Nur die Wärme aus dem Erdinneren bleibt. Minus zweihundertvierzig Grad.", min=4.8, stamp="MIO. JAHREN", node=True),
     dict(scene="twist", say="Und das Krasse: Die Sonne stirbt wirklich. In etwa fünf Milliarden Jahren bläht sie sich zum Roten Riesen auf.", min=5.4, stamp="ZUKUNFT", tplus=False, node=True, twist=True, shake=0.6),
     dict(scene="outro", say="Was soll als Nächstes ausgehen? Schreib's in die Kommentare!", min=3.6, nosub=True, noui=True, nosrc=True),
 ]

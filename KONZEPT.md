@@ -1,12 +1,12 @@
 # FOLGENSCHWER – Was wäre, wenn …?
 
-**Idee:** Ein Ereignis passiert, und jedes Video zeigt die Folgen als Zeitleiste mit dem Zähler „T+ 1 Sekunde → T+ 6 Stunden → … → T+ Millionen Jahre“.
+**Idee:** Ein Ereignis passiert, und jedes Video zeigt die Folgen als Zeitleiste mit dem Zähler „JETZT → NACH 1 SEKUNDE → NACH 6 STUNDEN → … → NACH MIO. JAHREN“.
 Jeder Schritt ist ein Kettenglied, das orange aufleuchtet. Am Ende kommt ein Twist mit Bezug zur echten Welt und dann die Kommentarfrage.
 
 ## Warum dieses Format
 - **Kaum Grenzen bei Themen:** Weltall, Erde, Körper, Technik, Gesellschaft, Geschichte. Jede Frage nach dem Muster „Was wäre, wenn …?“ passt.
 - **Starke Neugier:** Die Frage im Titel erzeugt sofort Spannung, und die Zeitleiste hält die Zuschauer bis zum letzten Glied dran.
-- **Wiedererkennbar:** Die T+-Pille, die Kette, das Ticken der Uhr und der Laser-/Glow-Look sind immer gleich, die Szenen wechseln.
+- **Wiedererkennbar:** Die Zeit-Pille („NACH 6 STUNDEN“), die Kette, das Ticken der Uhr und der Laser-/Glow-Look sind immer gleich, die Szenen wechseln.
 - **Lange Videos ergeben sich von selbst:** Aus einem Short wird ein 8–15-Minuten-Video, Stunde für Stunde, mit mehr Gliedern und mehr Tiefe.
 - **Optisch viel Spielraum:** Planeten, Partikel, Licht, Wasser, Simulationen. Alles wird prozedural erzeugt, es braucht kein Stockmaterial und es gibt kein Urheberrechtsrisiko.
 

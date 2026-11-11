@@ -99,12 +99,27 @@ def hook_text(img, rel, ln, l1, l2, l3="", kick="WAS WÄRE, WENN"):
     else:
         text_fx(img, (510, 670), l2, fit_font(l2, 100, 920), fill=ORANGE, glow=ORANGE, glow_r=22, alpha=a)
 
+@lru_cache(None)
+def _logo(size):
+    import os
+    im = Image.open(os.path.join(kr.ROOT, "brand", "logo_800x800.png")).convert("RGB").resize((size, size), Image.LANCZOS)
+    m = Image.new("L", (size * 4, size * 4), 0); ImageDraw.Draw(m).ellipse([0, 0, size * 4 - 1, size * 4 - 1], fill=255)
+    return im, m.resize((size, size), Image.LANCZOS)
+
+def logo(img, cx, cy, size, a=1.0):
+    """Kanal-Logo (rund) mit orangem Glow-Ring."""
+    if a <= 0.01: return
+    im, m = _logo(int(size)); r = size / 2 + 6
+    glow = Image.new("L", img.size, 0); ImageDraw.Draw(glow).ellipse([cx - r - 10, cy - r - 10, cx + r + 10, cy + r + 10], fill=int(200 * a))
+    glow = glow.filter(ImageFilter.GaussianBlur(22))
+    img.paste(ORANGE, (0, 0), glow)
+    if a < 1: m = m.point(lambda v: int(v * a))
+    img.paste(im, (int(cx - size / 2), int(cy - size / 2)), m)
+    ImageDraw.Draw(img, "RGBA").ellipse([cx - r + 3, cy - r + 3, cx + r - 3, cy + r - 3], outline=ORANGE + (int(255 * a),), width=5)
+
 def outro(img, rel, q1, q2, emoji="💬"):
     a = clamp(rel / 0.3); d = ImageDraw.Draw(img, "RGBA")
-    cx, y = 500, 470
-    for k, x in enumerate((cx - 70, cx, cx + 70)):
-        if k % 2 == 0: d.rounded_rectangle([x - 46, y - 24, x + 46, y + 24], 24, outline=ORANGE + (int(255 * a),), width=10)
-        else: d.rounded_rectangle([x - 16, y - 40, x + 16, y + 40], 16, outline=(255, 255, 255, int(255 * a)), width=10)
+    logo(img, 500, 375, 290, a)
     text_fx(img, (500, 580), "FOLGENSCHWER", F("Black", 84), fill=WHITE, alpha=a, tracking=2)
     text_fx(img, (500, 760), q1, fit_font(q1, 64, 900), fill=WHITE, alpha=clamp((rel - 0.3) / 0.3))
     text_fx(img, (500, 845), q2, fit_font(q2, 80, 900), fill=ORANGE, glow=ORANGE, glow_r=18, alpha=clamp((rel - 0.5) / 0.3))

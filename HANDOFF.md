@@ -7,12 +7,12 @@ GitHub: https://github.com/NikelangeloSantos/folgenschwer (lokal oft noch unter 
 Download-Seite: https://claude.ai/artifact/DRZ7x4oYYwuk4JdKZvTs3W (Quelle `downloads.html`, neue Folge oben einfügen, MP4 über `files`).
 
 ## Aufbau
-- `kr.py`: Engine. Stimme (ElevenLabs + Cache), Timing, T+-Pille und Kette, Karaoke-Untertitel, Übergänge, Bloom/Grain/Vignette/Tonemapping,
+- `kr.py`: Engine. Stimme (ElevenLabs + Cache), Timing, Zeit-Pille („NACH …“, Präfix automatisch bei Zahlen und „MIO.“) und Kette, Karaoke-Untertitel, Übergänge, Bloom/Grain/Vignette/Tonemapping,
   Hilfsfunktionen (`sphere()` für beleuchtete Planeten mit Wolken/Stadtlichtern/Atmosphäre, `fnoise`, `starfield`, `splat` für Partikel, `text_fx` mit Glow),
   prozedurale Musik (Drohnen-Pad je Segment, Ticken als Puls der Zeitleiste, Whoosh, Boom, Ketten-„Klink“, Riser vor dem Twist), 4 Render-Prozesse, 2-Pass auf −14 LUFS.
 - `videos/<thema>/<thema>.py`: ein Video. Enthält `SEGS`, `SCENES` (Hintergrund als float-Array HxWx3), `overlay()` (Text/Grafik auf dem PIL-Bild),
   `CHORDS`, `SOURCES`, `MAX_LEN`, am Ende `kr.run(globals())`.
-- SEGS-Felder: `say` (Sprechtext, Zahlen als Wörter), `min` (Mindestdauer), `stamp` (Text in der T+-Pille), `node` (Kettenglied),
+- SEGS-Felder: `say` (Sprechtext, Zahlen als Wörter), `min` (Mindestdauer), `stamp` (Text in der Zeit-Pille; Grammatik beachten: „6 MONATEN“, „MIO. JAHREN“; Hook: „JETZT“), `node` (Kettenglied),
   `twist`, `nosub`, `noui`, `nosrc`, `shake`.
 
 ## Neues Video
@@ -33,7 +33,7 @@ voice_id **`ML23UVoFL5mI6APbRAeR`** ab Video #02 (Nutzerwunsch). #01 Mond nutzt 
 | 02 | videos/stopp | Was wäre, wenn die Erde aufhört, sich zu drehen? | 38 s |
 | 03 | videos/insekten | Was wäre, wenn alle Insekten verschwinden? | 44 s |
 | 04 | videos/sonne | Was wäre, wenn die Sonne ausgeht? | 38 s |
-| 05 | videos/eis | Was wäre, wenn alles Eis der Erde schmilzt? (Pille zeigt +Meter statt T+) | 37 s |
+| 05 | videos/eis | Was wäre, wenn alles Eis der Erde schmilzt? (Pille zeigt +Meter statt Zeit) | 37 s |
 | 06 | videos/loch | Was wäre, wenn du in ein Schwarzes Loch fällst? (Gravitationslinse in loch.py) | 35 s |
 
 Gemeinsame Bausteine stehen in `lib.py` (Erde/Mond/Sonne, Sterne, `heads()`, `hook_text()`, `outro()`, Emoji, Kreuz).

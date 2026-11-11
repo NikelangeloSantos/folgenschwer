@@ -2,7 +2,7 @@
 
 Ein Video ist eine Datei videos/<name>.py, die SEGS, SCENES und ein paar Konstanten definiert und
 am Ende `kr.run(globals())` aufruft. Die Engine übernimmt: Stimme (ElevenLabs + Cache), Timing,
-Zeitleisten-UI (T+ … und Kettenglieder), Karaoke-Untertitel, Übergänge, Bloom/Grain/Vignette,
+Zeitleisten-UI ("NACH …" und Kettenglieder), Karaoke-Untertitel, Übergänge, Bloom/Grain/Vignette,
 prozedurale Musik + SFX, paralleles Rendern und Lautheit.
 """
 import base64, hashlib, json, math, os, subprocess, sys, wave
@@ -315,12 +315,13 @@ def chain_ui(img, t, i, rel):
             d.ellipse([x - 13, y - 13, x + 13, y + 13], fill=ORANGE + (255,), outline=(255, 230, 200, 255), width=3)
         else:
             d.ellipse([x - 12, y - 12, x + 12, y + 12], fill=(10, 14, 28, 200), outline=(255, 255, 255, 110), width=3)
-    # T+ Pille
+    # Zeit-Pille ("NACH 6 STUNDEN")
     stamp = seg.get("stamp") or next((S[k].get("stamp") for k in range(i, -1, -1) if S[k].get("stamp")), "")
     if not stamp: return
     pop = bo(rel / 0.35) if seg.get("stamp") else 1.0
     f = F("Black", 50 * (0.85 + 0.15 * pop)); ft = F("Black", 50 * (0.85 + 0.15 * pop))
-    pre = "T+ " if seg.get("tplus", True) else ""
+    tp = seg.get("tplus", True) if seg.get("stamp") else next((S[k].get("tplus", True) for k in range(i, -1, -1) if S[k].get("stamp")), True)
+    pre = "NACH " if tp and (stamp[0].isdigit() or stamp.startswith("MIO")) else ""
     w1 = text_w(pre, ft); w2 = text_w(stamp, f); tw_ = w1 + w2
     cx, cy = 510, 250; px = tw_ / 2 + 36
     d.rounded_rectangle([cx - px, cy - 42, cx + px, cy + 42], 42, fill=(8, 10, 22, 205), outline=ORANGE + (255,), width=4)
