@@ -54,3 +54,9 @@ Themenmix (Nutzerwunsch): auch banale/unrealistische Alltagsfragen („hat sich 
 - Frame 0 schon in Bewegung (Push-in, Licht-Wechsel, Shake), kein ruhiges Standbild.
 - Im Hook nur 2–3 riesige Wörter, kein „WAS WÄRE, WENN“-Kicker.
 - Outro-Frage themenbezogen („Welches Gesetz würdest du …?“) + passenden Kommentar anpinnen.
+
+## 3D-Doodle-Stil (ab #12, Nutzerwunsch: „krasser, keine langen Standbilder, 3D Doodle“)
+- `doodle.py`: Layer mit Kamera (Zoom/Pan/Rotation), Line-Boil 12 fps, extrudierte Formen (`poly`, `box`, `circ`), 3D-Text (`text`),
+  Figuren `bean()` (Bohnen mit Augen), `car()`, `flame()`, `bill()`, `burst()`, `scribbles()` (Hintergrund-Gekritzel). Zeichnet 2× und skaliert runter.
+- Pro Kettenglied 2–3 Beats (`beat(rel, [0, 1.8, 3.6])`) mit Zoom-Punch, Kamera immer in Bewegung (`cam()`), knallige Verläufe statt Weltall-Navy.
+- Vorlage: `videos/gesetze/gesetze.py` (flache Vorversion: `gesetze_v1_flat.py`). Render ~7 min.
