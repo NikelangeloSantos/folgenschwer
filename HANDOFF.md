@@ -39,3 +39,11 @@ voice_id **`ML23UVoFL5mI6APbRAeR`** ab Video #02 (Nutzerwunsch). #01 Mond nutzt 
 Gemeinsame Bausteine stehen in `lib.py` (Erde/Mond/Sonne, Sterne, `heads()`, `hook_text()`, `outro()`, Emoji, Kreuz).
 Fertigstellen: `tools/finish.sh <ordner> <nr> <Titel>` (Stimme holen, rendern, Web-Version < 15 MB, Lautheit auf −14 korrigieren).
 Download-Seite: mehr als 64 MB pro Publish geht nicht, also MP4s auf mehrere Publishes an dieselbe URL verteilen.
+| 07 | videos/tunnel | Was wäre, wenn du durch die Erde fällst? | |
+| 08 | videos/springen | Was wäre, wenn alle Menschen gleichzeitig springen? | |
+| 09 | videos/kaugummi | Was wäre, wenn du einen Kaugummi verschluckst? | |
+| 10 | videos/schlaf | Was wäre, wenn du nie wieder schläfst? | |
+| 11 | videos/euro | Was wäre, wenn du jeden Tag 1 € sparst? | |
+
+Mehrere Videos am Stück: `tools/batch.sh "ordner NN Titel" "ordner NN Titel" …`
+Themenmix (Nutzerwunsch): auch banale/unrealistische Alltagsfragen („hat sich jeder schon mal gefragt“), nicht nur Natur/Weltall.
