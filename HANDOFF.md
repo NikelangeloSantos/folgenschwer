@@ -60,3 +60,20 @@ Themenmix (Nutzerwunsch): auch banale/unrealistische Alltagsfragen („hat sich 
   Figuren `bean()` (Bohnen mit Augen), `car()`, `flame()`, `bill()`, `burst()`, `scribbles()` (Hintergrund-Gekritzel). Zeichnet 2× und skaliert runter.
 - Pro Kettenglied 2–3 Beats (`beat(rel, [0, 1.8, 3.6])`) mit Zoom-Punch, Kamera immer in Bewegung (`cam()`), knallige Verläufe statt Weltall-Navy.
 - Vorlage: `videos/gesetze/gesetze.py` (flache Vorversion: `gesetze_v1_flat.py`). Render ~7 min.
+
+## YouTube-Auswertungen & Regeln für alle neuen Videos (Stand 13.11.)
+| Video | Länge | Aufrufe | Aktive Wiedergaben | Ø Wiedergabe | Bis zum Ende |
+|---|---|---|---|---|---|
+| #10 Nie schlafen (nach 4 h) | 36 s | 300 | 73 (24 %) | 58,5 % | 22,3 % |
+| #08 Alle springen | 32 s | 1.061 | 464 (44 %) | 74,4 % | 40,3 % |
+| #12 Keine Gesetze | 42 s | 3 (nicht ausgespielt) | – | – | – |
+
+Was #08 besser machte: kürzer, lustig/harmlos, Bewegung im ersten Bild (springende Menge), Countdown, überraschende Vergleiche (Saarland, Atom).
+**Regeln ab jetzt (Nutzer: „plane das für die nächsten Videos ein“):**
+1. **Länge 28–34 s.** Lieber 3 Kettenglieder + Twist als 4. Jeder Satz ultrakurz.
+2. **Erste 0,5 s:** visuelle Überraschung + Text, der reinknallt (Pop/Slam-Animation, nicht nur dastehen). Kein Kicker, max. 3 Wörter.
+3. **Themen:** banale „hab ich mich auch schon gefragt“-Fragen, eher lustig als düster. Keine Wörter, die Einschränkungen auslösen (Plünderung, Überfall …).
+4. **Zuschauer-Ideen aufgreifen:** Themenvorschläge aus Kommentaren verfilmen und den Kommentar am Anfang als Karte einblenden
+   („@name will wissen: …“), im Outro zum nächsten Vorschlag aufrufen. Kommentartext + Name liefert der Nutzer.
+5. Mitten im Video ein Mini-Countdown oder eine Zahl, die hochläuft (hält die Leute dran), am Ende ein überraschender Vergleich.
+6. Kommentar anpinnen, der eine konkrete Frage stellt.
