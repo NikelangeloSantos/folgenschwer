@@ -102,7 +102,7 @@ def hook_text(img, rel, ln, l1, l2, l3="", kick="WAS WÄRE, WENN"):
 @lru_cache(None)
 def _logo(size):
     import os
-    im = Image.open(os.path.join(kr.ROOT, "brand", "logo_800x800.png")).convert("RGB").resize((size, size), Image.LANCZOS)
+    im = Image.open(os.path.join(kr.ROOT, "brand", "logo3d_800x800.png")).convert("RGB").resize((size, size), Image.LANCZOS)
     m = Image.new("L", (size * 4, size * 4), 0); ImageDraw.Draw(m).ellipse([0, 0, size * 4 - 1, size * 4 - 1], fill=255)
     return im, m.resize((size, size), Image.LANCZOS)
 
