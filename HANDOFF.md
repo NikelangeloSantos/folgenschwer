@@ -67,6 +67,7 @@ Themenmix (Nutzerwunsch): auch banale/unrealistische Alltagsfragen („hat sich 
 | #10 Nie schlafen (nach 4 h) | 36 s | 300 | 73 (24 %) | 58,5 % | 22,3 % |
 | #08 Alle springen | 32 s | 1.061 | 464 (44 %) | 74,4 % | 40,3 % |
 | #12 Keine Gesetze | 42 s | 3 (nicht ausgespielt) | – | – | – |
+| #09 Kaugummi v2 (neuer Hook, 21,5 s) | 21,5 s | >1.000 | ~20 % | – | – |
 
 Was #08 besser machte: kürzer, lustig/harmlos, Bewegung im ersten Bild (springende Menge), Countdown, überraschende Vergleiche (Saarland, Atom).
 **Regeln ab jetzt (Nutzer: „plane das für die nächsten Videos ein“):**
@@ -77,3 +78,8 @@ Was #08 besser machte: kürzer, lustig/harmlos, Bewegung im ersten Bild (springe
    („@name will wissen: …“), im Outro zum nächsten Vorschlag aufrufen. Kommentartext + Name liefert der Nutzer.
 5. Mitten im Video ein Mini-Countdown oder eine Zahl, die hochläuft (hält die Leute dran), am Ende ein überraschender Vergleich.
 6. Kommentar anpinnen, der eine konkrete Frage stellt.
+
+**Erkenntnis 15.11.:** Der neue Hook allein hat #09 nicht gerettet (20 % bleiben dran, trotz Slam-Text und 21,5 s).
+Gemeinsamkeit der schwachen Videos (#10 Uhr, #09 Körper-Schema): dunkles, schematisches Bild, „Schulbuch“-Thema.
+Gemeinsamkeit des starken (#08): absurde Riesen-Frage („ALLE Menschen …“), helle bunte Szene mit Figuren, sichtbare Action.
+→ Themenwahl + erstes Bild sind wichtiger als die Hook-Formel: absurde, große Gedankenexperimente mit Menschen/Action im Bild, hell und bunt.
