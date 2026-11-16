@@ -11,3 +11,6 @@ Welches Szenario soll als Nächstes kommen? Schreib's in die Kommentare 👇
 Quellen: NASA · Event Horizon Telescope (Sagittarius A*, 2022) · Allgemeine Relativitätstheorie
 
 #waswärewenn #schwarzesloch #weltall #physik #wissen #space #shorts
+
+**YouTube-Tags:**
+schwarzes loch, was passiert wenn man in ein schwarzes loch fällt, in ein schwarzes loch fallen, spaghettifizierung, ereignishorizont, zeitdilatation, sagittarius a, schwarzes loch erklärt, was wäre wenn, weltall, universum, physik, astronomie, wissen, fakten, folgenschwer, shorts deutsch
